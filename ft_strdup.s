@@ -18,4 +18,5 @@ _ft_strdup:
 	call _ft_strcpy
 	ret
 error:
+	pop rdi
 	ret
